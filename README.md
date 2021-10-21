@@ -5,13 +5,13 @@ CRC(Cyclic Redundancy Check) 8/16/32 Calculation Library for C/C++.<br>
 How to use?
 ---
 Already built library files (CRC.dll, CRC.lib) for x32, x64 are ready for use.<br>
-[x32_Debug](./CRC/Debug ), 
-[x32_Release](https://github.com/YOGYUI/CRC/Release )<br>
-[x64_Debug](https://github.com/YOGYUI/CRC/x64/Debug ), 
-[x64_Release](https://github.com/YOGYUI/CRC/x64/Release )<br>
+[x32_Debug](https://github.com/YOGYUI/CRC/tree/main/Debug ), 
+[x32_Release](https://github.com/YOGYUI/CRC/tree/main/Release )<br>
+[x64_Debug](https://github.com/YOGYUI/CRC/tree/main/x64/Debug ), 
+[x64_Release](https://github.com/YOGYUI/CRC/tree/main/Release )<br>
 Just link lib file in your project and put dll file in output directory.
 <br>
-Also, you can refer to [example code](https://github.com/YOGYUI/CRC/Validation/Validation.cpp ) which I made.<br><br>
+Also, you can refer to [example code](https://github.com/YOGYUI/CRC/tree/main/Validation/Validation.cpp ) which I made.<br><br>
 You can use Look-up Table option to reduce calculation time or instant calculation option to reduce memory usage.<br>
 Option can be configured with constructor argument(use_lut).
 ```cpp
