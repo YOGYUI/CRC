@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -24,9 +23,28 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# 
+*.suo
+.vs/
+CRC/Debug
+CRC/Release
+CRC/x64/Debug
+CRC/x64/Release
+Validation/Debug
+Validation/Release
+Validation/x64/Debug
+Validation/x64/Release
+Debug/*.exp
+Debug/*.pdb
+Release/*.exp
+Release/*.pdb
+x64/Debug/*.exp
+x64/Debug/*.pdb
+x64/Release/*.exp
+x64/Release/*.pdb
