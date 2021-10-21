@@ -5,7 +5,7 @@ CRC(Cyclic Redundancy Check) 8/16/32 Calculation Library for C/C++.<br>
 How to use?
 ---
 Already built library files (CRC.dll, CRC.lib) for x32, x64 are ready for use.<br>
-[x32_Debug](https://github.com/YOGYUI/CRC/Debug ), 
+[x32_Debug](./CRC/Debug ), 
 [x32_Release](https://github.com/YOGYUI/CRC/Release )<br>
 [x64_Debug](https://github.com/YOGYUI/CRC/x64/Debug ), 
 [x64_Release](https://github.com/YOGYUI/CRC/x64/Release )<br>
