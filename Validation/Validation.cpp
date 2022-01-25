@@ -51,8 +51,8 @@ int main()
 	n16result1 = CRC16_BUYPASS(false).calculate(string);
 	n16result2 = CRC16_BUYPASS(true).calculate(string);
 	printf("CRC-16/BUYPASS: <calc> 0x%04X, <LUT> 0x%04X\n", n16result1, n16result2);
-	n16result1 = CRC16_CMDA2000(false).calculate(string);
-	n16result2 = CRC16_CMDA2000(true).calculate(string);
+	n16result1 = CRC16_CDMA2000(false).calculate(string);
+	n16result2 = CRC16_CDMA2000(true).calculate(string);
 	printf("CRC-16/CDMA2000: <calc> 0x%04X, <LUT> 0x%04X\n", n16result1, n16result2);
 	n16result1 = CRC16_DDS_110(false).calculate(string);
 	n16result2 = CRC16_DDS_110(true).calculate(string);

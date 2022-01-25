@@ -153,10 +153,10 @@ extern "C"
 		CRC16_BUYPASS(bool use_lut = false) : CRC16(0x8005, 0x0000, false, false, 0x0000, use_lut) {};
 	};
 
-	class CRC_API CRC16_CMDA2000 : public CRC16
+	class CRC_API CRC16_CDMA2000 : public CRC16
 	{
 	public:
-		CRC16_CMDA2000(bool use_lut = false) : CRC16(0xC867, 0xFFFF, false, false, 0x0000, use_lut) {};
+		CRC16_CDMA2000(bool use_lut = false) : CRC16(0xC867, 0xFFFF, false, false, 0x0000, use_lut) {};
 	};
 
 	class CRC_API CRC16_DDS_110 : public CRC16
